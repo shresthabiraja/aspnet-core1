@@ -1,0 +1,652 @@
+DEBUG 2019-11-29 23:46:39,149 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-29 23:46:39,387 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-29 23:46:39,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.Web.Host.Startup.DemoEgWebHostModule, DemoEg.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgWebCoreModule, DemoEg.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgApplicationModule, DemoEg.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgCoreModule, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.EntityFrameworkCore.DemoEgEntityFrameworkModule, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:39,408 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-29 23:46:39,570 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-29 23:46:39,570 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-29 23:46:39,570 [1    ] o.Configuration.LanguageManagementConfig - Converted DemoEg (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-29 23:46:39,570 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-29 23:46:40,149 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DemoEg.EntityFrameworkCore.DemoEgDbContext, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-29 23:46:41,117 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-29 23:46:41,166 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-29 23:46:41,176 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-29 23:46:41,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DemoEg
+DEBUG 2019-11-29 23:46:41,184 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-29 23:46:41,430 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-29 23:46:41,581 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-29 23:46:41,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-11-29 23:46:41,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-29 23:46:41,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.CreateUserDto
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.UserDto
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Tasks.Dto.TasksDto
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.CreateTaskInput
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.TaskList
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-29 23:46:41,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Roles.Dto.PermissionDto
+DEBUG 2019-11-29 23:46:41,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-29 23:46:41,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-29 23:46:44,131 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,710 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,758 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,764 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,774 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,777 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,778 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,780 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,781 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,783 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,784 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,786 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,787 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,789 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,791 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,792 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,794 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,796 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,797 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,799 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,801 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,803 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,806 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,808 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,810 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,812 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,857 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,898 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,949 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:44,967 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,040 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,052 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,065 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,072 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,074 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,093 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,101 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,108 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,111 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,114 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,117 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,120 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,152 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,162 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,177 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,181 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,194 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,198 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,226 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,234 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,239 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,245 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,251 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,510 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:45,517 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:46,098 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:46,101 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:46,190 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:46,222 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:46:46,473 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-29 23:46:46,880 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-29 23:46:46,990 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-29 23:46:47,257 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+INFO  2019-11-29 23:46:51,064 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DemoEg.Web.Host.Controllers.HomeController (DemoEg.Web.Host).
+DEBUG 2019-11-29 23:46:52,230 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-29 23:46:52,369 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-29 23:46:52,376 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host) in 1306.105ms
+INFO  2019-11-29 23:46:52,379 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+INFO  2019-11-29 23:46:52,402 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-29 23:46:52,403 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5412.2023ms 302 
+INFO  2019-11-29 23:46:52,596 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 194.8673ms 200 text/html;charset=utf-8
+INFO  2019-11-29 23:46:52,620 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-11-29 23:46:52,622 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-11-29 23:46:52,625 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-11-29 23:46:52,627 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-11-29 23:46:52,629 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-11-29 23:46:52,640 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-11-29 23:46:52,642 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-11-29 23:46:52,643 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-11-29 23:46:52,649 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.6459ms 304 application/javascript
+INFO  2019-11-29 23:46:52,651 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.270300000000002ms 304 application/javascript
+INFO  2019-11-29 23:46:52,653 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.886300000000002ms 304 text/css
+INFO  2019-11-29 23:46:52,679 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\user\Desktop\5.0.0\aspnet-core\src\DemoEg.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-11-29 23:46:52,679 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\user\Desktop\5.0.0\aspnet-core\src\DemoEg.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-11-29 23:46:52,681 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.107000000000006ms 200 application/javascript
+INFO  2019-11-29 23:46:52,684 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.295300000000005ms 200 application/javascript
+INFO  2019-11-29 23:46:52,849 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-29 23:46:52,887 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-11-29 23:46:52,891 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-11-29 23:46:52,894 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.0441ms 200 image/png
+INFO  2019-11-29 23:46:53,041 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 191.4751ms 200 application/json;charset=utf-8
+DEBUG 2019-11-29 23:46:57,264 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:02,276 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:07,299 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:12,315 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:17,330 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:22,338 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:27,354 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-29 23:47:31,479 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Task/Create application/json-patch+json 246
+INFO  2019-11-29 23:47:31,486 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-29 23:47:31,489 [8    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-29 23:47:31,493 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-29 23:47:31,516 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[DemoEg.Tasks.Dto.TasksDto] CreateAsync(DemoEg.Tasks.Dto.TasksDto) on controller DemoEg.Tasks.TaskAppService (DemoEg.Application).
+ERROR 2019-11-29 23:47:31,526 [8    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2019-11-29 23:47:31,892 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-29 23:47:31,905 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application) in 387.49190000000004ms
+INFO  2019-11-29 23:47:31,907 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-29 23:47:31,909 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 429.9614ms 500 application/json; charset=utf-8
+DEBUG 2019-11-29 23:47:32,372 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:37,385 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:42,399 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:47,414 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-29 23:47:47,989 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Task/Create application/json-patch+json 246
+INFO  2019-11-29 23:47:47,992 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-29 23:47:47,994 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-29 23:47:48,001 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-29 23:47:48,009 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[DemoEg.Tasks.Dto.TasksDto] CreateAsync(DemoEg.Tasks.Dto.TasksDto) on controller DemoEg.Tasks.TaskAppService (DemoEg.Application).
+ERROR 2019-11-29 23:47:48,011 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2019-11-29 23:47:48,016 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-29 23:47:48,022 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application) in 9.246400000000001ms
+INFO  2019-11-29 23:47:48,024 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-29 23:47:48,026 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.1719ms 500 application/json; charset=utf-8
+DEBUG 2019-11-29 23:47:52,430 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:47:57,447 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-29 23:47:58,004 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Task/Create application/json-patch+json 246
+INFO  2019-11-29 23:47:58,007 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-29 23:47:58,009 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-29 23:47:58,012 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-29 23:47:58,017 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[DemoEg.Tasks.Dto.TasksDto] CreateAsync(DemoEg.Tasks.Dto.TasksDto) on controller DemoEg.Tasks.TaskAppService (DemoEg.Application).
+ERROR 2019-11-29 23:47:58,019 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2019-11-29 23:47:58,023 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-29 23:47:58,029 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application) in 7.7004ms
+INFO  2019-11-29 23:47:58,031 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-29 23:47:58,034 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.404300000000003ms 500 application/json; charset=utf-8
+DEBUG 2019-11-29 23:48:02,463 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-29 23:48:07,478 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:10,642 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-30 01:54:10,850 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-30 01:54:10,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.Web.Host.Startup.DemoEgWebHostModule, DemoEg.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgWebCoreModule, DemoEg.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgApplicationModule, DemoEg.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgCoreModule, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.EntityFrameworkCore.DemoEgEntityFrameworkModule, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:10,870 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-30 01:54:11,006 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-30 01:54:11,006 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-30 01:54:11,006 [1    ] o.Configuration.LanguageManagementConfig - Converted DemoEg (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-30 01:54:11,006 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-30 01:54:11,427 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DemoEg.EntityFrameworkCore.DemoEgDbContext, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-30 01:54:12,256 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-30 01:54:12,285 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-30 01:54:12,295 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-30 01:54:12,299 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DemoEg
+DEBUG 2019-11-30 01:54:12,314 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-30 01:54:12,505 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-30 01:54:12,622 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-30 01:54:12,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-11-30 01:54:12,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-30 01:54:12,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.CreateUserDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.UserDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Tasks.Dto.TasksDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.CreateTaskInput
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.TaskList
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Roles.Dto.PermissionDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-30 01:54:12,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-30 01:54:14,705 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:14,760 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:14,875 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:14,935 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-30 01:54:15,450 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-30 01:54:15,521 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-30 01:54:15,635 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+DEBUG 2019-11-30 01:54:18,060 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-30 01:54:18,827 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DemoEg.Web.Host.Controllers.HomeController (DemoEg.Web.Host).
+INFO  2019-11-30 01:54:19,959 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-30 01:54:19,965 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host) in 1133.6702ms
+INFO  2019-11-30 01:54:19,968 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+INFO  2019-11-30 01:54:19,983 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4463.3136ms 302 
+INFO  2019-11-30 01:54:19,986 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-30 01:54:20,140 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 155.0535ms 200 text/html;charset=utf-8
+INFO  2019-11-30 01:54:20,329 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-30 01:54:20,471 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 140.2777ms 200 application/json;charset=utf-8
+DEBUG 2019-11-30 01:54:23,624 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:28,642 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:33,660 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:38,681 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-30 01:54:42,869 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2019-11-30 01:54:42,874 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-30 01:54:42,876 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-30 01:54:42,880 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Controllers.TokenAuthController.Authenticate (DemoEg.Web.Core)'
+INFO  2019-11-30 01:54:42,897 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[DemoEg.Models.TokenAuth.AuthenticateResultModel] Authenticate(DemoEg.Models.TokenAuth.AuthenticateModel) on controller DemoEg.Controllers.TokenAuthController (DemoEg.Web.Core).
+DEBUG 2019-11-30 01:54:43,706 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-30 01:54:44,029 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-30 01:54:44,041 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Controllers.TokenAuthController.Authenticate (DemoEg.Web.Core) in 1142.0427ms
+INFO  2019-11-30 01:54:44,043 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Controllers.TokenAuthController.Authenticate (DemoEg.Web.Core)'
+INFO  2019-11-30 01:54:44,045 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1178.0494ms 200 application/json; charset=utf-8
+DEBUG 2019-11-30 01:54:48,714 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-30 01:54:51,460 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-30 01:54:51,467 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.086200000000001ms 200 text/html;charset=utf-8
+INFO  2019-11-30 01:54:51,536 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-30 01:54:51,542 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-11-30 01:54:51,555 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-11-30 01:54:51,557 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.2531ms 200 image/png
+INFO  2019-11-30 01:54:51,581 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-30 01:54:51,655 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 119.536ms 200 application/json;charset=utf-8
+DEBUG 2019-11-30 01:54:53,728 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:54:58,743 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:03,762 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-30 01:55:07,178 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Task/Create application/json-patch+json 245
+INFO  2019-11-30 01:55:07,180 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-30 01:55:07,182 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-30 01:55:07,187 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-30 01:55:07,190 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-30 01:55:07,201 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[DemoEg.Tasks.Dto.TasksDto] CreateAsync(DemoEg.Tasks.Dto.TasksDto) on controller DemoEg.Tasks.TaskAppService (DemoEg.Application).
+ERROR 2019-11-30 01:55:07,207 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'DemoEg.Tasks.TaskAppService' as it has dependencies to be satisfied.
+
+'DemoEg.Tasks.TaskAppService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`1[[DemoEg.Model.Task, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2019-11-30 01:55:07,516 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-30 01:55:07,520 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application) in 316.50550000000004ms
+INFO  2019-11-30 01:55:07,521 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-11-30 01:55:07,523 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 345.8192ms 500 application/json; charset=utf-8
+DEBUG 2019-11-30 01:55:08,773 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:13,792 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:18,812 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:23,826 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:28,838 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:33,842 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:38,857 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:43,860 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:48,867 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:53,885 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:55:58,899 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:56:03,902 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-30 01:56:08,906 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:23,023 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-02 23:32:23,511 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-02 23:32:23,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.Web.Host.Startup.DemoEgWebHostModule, DemoEg.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgWebCoreModule, DemoEg.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgApplicationModule, DemoEg.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgCoreModule, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.EntityFrameworkCore.DemoEgEntityFrameworkModule, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:23,556 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-02 23:32:23,878 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:32:23,878 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:32:23,878 [1    ] o.Configuration.LanguageManagementConfig - Converted DemoEg (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:32:23,878 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:32:24,771 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DemoEg.EntityFrameworkCore.DemoEgDbContext, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:32:26,663 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-02 23:32:26,743 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-02 23:32:26,779 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-02 23:32:26,792 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DemoEg
+DEBUG 2019-12-02 23:32:26,801 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-02 23:32:27,251 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-02 23:32:27,529 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-02 23:32:27,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-12-02 23:32:27,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-02 23:32:27,674 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.CreateUserDto
+DEBUG 2019-12-02 23:32:27,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.UserDto
+DEBUG 2019-12-02 23:32:27,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Tasks.Dto.TasksDto
+DEBUG 2019-12-02 23:32:27,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.CreateTaskInput
+DEBUG 2019-12-02 23:32:27,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.TaskList
+DEBUG 2019-12-02 23:32:27,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-02 23:32:27,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-02 23:32:27,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Roles.Dto.PermissionDto
+DEBUG 2019-12-02 23:32:27,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-02 23:32:27,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-02 23:32:32,375 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:32,465 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:32,570 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:32,826 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:32,887 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-02 23:32:34,015 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-02 23:32:34,200 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-12-02 23:32:34,465 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+DEBUG 2019-12-02 23:32:38,644 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-02 23:32:42,059 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DemoEg.Web.Host.Controllers.HomeController (DemoEg.Web.Host).
+DEBUG 2019-12-02 23:32:44,141 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-02 23:32:44,612 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-12-02 23:32:44,627 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host) in 2557.181ms
+INFO  2019-12-02 23:32:44,632 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+INFO  2019-12-02 23:32:44,667 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-12-02 23:32:44,671 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10469.9823ms 302 
+INFO  2019-12-02 23:32:45,031 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 364.6012ms 200 text/html;charset=utf-8
+INFO  2019-12-02 23:32:45,061 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-12-02 23:32:45,064 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-12-02 23:32:45,074 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-12-02 23:32:45,076 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-12-02 23:32:45,081 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.163500000000003ms 304 application/javascript
+INFO  2019-12-02 23:32:45,084 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.3378ms 304 application/javascript
+INFO  2019-12-02 23:32:45,175 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-12-02 23:32:45,352 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 175.71040000000002ms 200 application/json;charset=utf-8
+DEBUG 2019-12-02 23:32:49,150 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:54,172 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:32:59,185 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:33:04,237 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:33:09,248 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-02 23:33:13,198 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Task/Create application/json-patch+json 239
+INFO  2019-12-02 23:33:13,205 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-02 23:33:13,207 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-12-02 23:33:13,212 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-12-02 23:33:13,243 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Task"}. Executing controller action with signature System.Threading.Tasks.Task`1[DemoEg.Tasks.Dto.TasksDto] CreateAsync(DemoEg.Tasks.Dto.TasksDto) on controller DemoEg.Tasks.TaskAppService (DemoEg.Application).
+DEBUG 2019-12-02 23:33:36,781 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+ERROR 2019-12-02 23:33:36,938 [8    ] Mvc.ExceptionHandling.AbpExceptionFilter - The method or operation is not implemented.
+System.NotImplementedException: The method or operation is not implemented.
+   at DemoEg.Tasks.Dto.TasksDto.AddValidationErrors(CustomValidationContext context) in C:\Users\user\Desktop\5.0.0\aspnet-core\src\DemoEg.Application\TaskDto\Dto\TasksDto.cs:line 26
+   at Abp.Runtime.Validation.Interception.CustomValidator.Validate(Object validatingObject)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.SetValidationErrors(Object validatingObject)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateObjectRecursively(Object validatingObject, Int32 currentDepth)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateMethodParameter(ParameterInfo parameterInfo, Object parameterValue)
+   at Abp.Web.Validation.ActionInvocationValidatorBase.ValidateMethodParameter(ParameterInfo parameterInfo, Object parameterValue)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2019-12-02 23:33:37,277 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-02 23:33:37,298 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application) in 24052.218ms
+INFO  2019-12-02 23:33:37,300 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Tasks.TaskAppService.CreateAsync (DemoEg.Application)'
+INFO  2019-12-02 23:33:37,303 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24106.2871ms 500 application/json; charset=utf-8
+DEBUG 2019-12-02 23:33:41,809 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:04,808 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-02 23:34:04,938 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-02 23:34:04,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.Web.Host.Startup.DemoEgWebHostModule, DemoEg.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgWebCoreModule, DemoEg.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgApplicationModule, DemoEg.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.DemoEgCoreModule, DemoEg.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DemoEg.EntityFrameworkCore.DemoEgEntityFrameworkModule, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:04,965 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-02 23:34:05,027 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:34:05,027 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:34:05,027 [1    ] o.Configuration.LanguageManagementConfig - Converted DemoEg (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:34:05,027 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-02 23:34:05,380 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DemoEg.EntityFrameworkCore.DemoEgDbContext, DemoEg.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-02 23:34:06,443 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-02 23:34:06,481 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-02 23:34:06,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-02 23:34:06,498 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DemoEg
+DEBUG 2019-12-02 23:34:06,515 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-02 23:34:06,765 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-02 23:34:06,915 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-02 23:34:06,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-12-02 23:34:06,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-02 23:34:06,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.CreateUserDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Users.Dto.UserDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Tasks.Dto.TasksDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.CreateTaskInput
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.TaskDto.Dto.TaskList
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.Roles.Dto.PermissionDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-02 23:34:06,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DemoEg.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-02 23:34:11,058 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:11,180 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:11,396 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:11,541 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:11,814 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-02 23:34:11,930 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-02 23:34:12,054 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-12-02 23:34:12,266 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+DEBUG 2019-12-02 23:34:17,864 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-02 23:34:19,686 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DemoEg.Web.Host.Controllers.HomeController (DemoEg.Web.Host).
+INFO  2019-12-02 23:34:22,144 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-12-02 23:34:22,155 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host) in 2460.2245000000003ms
+INFO  2019-12-02 23:34:22,159 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DemoEg.Web.Host.Controllers.HomeController.Index (DemoEg.Web.Host)'
+INFO  2019-12-02 23:34:22,184 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-12-02 23:34:22,189 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10136.940700000001ms 302 
+INFO  2019-12-02 23:34:22,462 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 277.3508ms 200 text/html;charset=utf-8
+INFO  2019-12-02 23:34:22,606 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-12-02 23:34:22,823 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 216.6431ms 200 application/json;charset=utf-8
+DEBUG 2019-12-02 23:34:22,887 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:27,915 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:32,933 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:37,977 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:43,001 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:48,022 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:53,047 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:34:58,062 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:03,080 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:08,095 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:13,125 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:18,147 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:23,161 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:28,167 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:33,194 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:38,208 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:43,226 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:48,247 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:53,262 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:35:58,268 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:03,274 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:08,291 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:13,313 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:18,496 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:23,525 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:29,075 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:34,254 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:39,279 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:44,498 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:49,626 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:54,635 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:36:59,649 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:04,673 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:09,712 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:14,729 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:19,737 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:24,742 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:29,756 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:34,776 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:39,803 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:44,821 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:49,851 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:54,921 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:37:59,929 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:04,947 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:09,964 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:14,980 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:19,991 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:24,997 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:30,005 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:35,008 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:40,017 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:45,041 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:50,073 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:38:55,183 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:00,207 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:05,241 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:10,263 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:15,273 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:20,290 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:25,305 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:30,322 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:35,329 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:40,348 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:45,355 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:50,369 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:39:55,385 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:00,406 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:05,424 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:10,431 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:15,445 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:20,460 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:25,468 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:30,488 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:35,493 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:40,508 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:45,526 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:50,530 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:40:55,547 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:00,556 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:05,573 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:10,597 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:15,600 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:20,612 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:25,624 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:30,635 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:35,644 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:40,655 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:45,665 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:50,674 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:41:55,682 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:00,696 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:05,713 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:10,733 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:15,749 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:20,771 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:25,778 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:30,792 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:35,798 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:40,806 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:45,814 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:50,821 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:42:55,831 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:00,837 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:05,858 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:10,858 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:15,864 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:20,872 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:25,880 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:30,883 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-02 23:43:35,898 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
